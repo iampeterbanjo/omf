@@ -15,6 +15,9 @@ alias aar 	        'sudo apt-add-repository'
 alias au 	        'sudo apt-get update'
 alias arr 	        'sudo apt-remove-repository'
 
+alias omfi		'omf install'
+alias omfr		'omf remove'
+
 #
 # SSH
 #
@@ -22,6 +25,7 @@ alias arr 	        'sudo apt-remove-repository'
 
 alias sshnewkey 	'ssh-keygen -t rsa -b 4096 -C' #email
 alias sshaddkey		'ssh-agent -s; ssh-add'
+ 
 
 #
 # MAINTENANCE
@@ -98,5 +102,5 @@ alias cd-fisherman	'cd $FISHERMAN'
 
 set fisher_home ~/.local/share/fisherman
 set fisher_config ~/.config/fisherman
-source $fisher_home/config.fish
+# source $fisher_home/config.fish 
 
