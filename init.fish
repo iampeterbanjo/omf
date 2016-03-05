@@ -35,6 +35,7 @@ alias rfish             'source ~/.config/fish/config.fish'
 alias ehosts            'sudo editor /etc/hosts'
 alias sudo              'sudo '
 alias l                 'ls -la'
+alias eprofile		'editor ~/.profile'
 
 #
 # DEVELOPMENT
@@ -89,3 +90,4 @@ alias cd-home		'cd $HOME'
 alias cd-projects	'cd $PROJECTS'
 alias cd-downloads	'cd $HOME/Downloads'
 alias cd-omf		'cd $OMF_CONFIG'
+alias cd-fisherman	'cd $FISHERMAN'
