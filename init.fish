@@ -18,6 +18,9 @@ alias arr 	        'sudo apt-remove-repository'
 alias omfi		'omf install'
 alias omfr		'omf remove'
 
+alias shutdown 		'sudo shutdown'
+alias reboot 		'sudo reboot'
+
 #
 # SSH
 #
