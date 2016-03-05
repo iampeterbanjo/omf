@@ -3,7 +3,7 @@
 #
 
 alias editor            gedit
-alias open              'nautilus'
+alias open              'nemo'
 
 #
 # SYSTEM
@@ -91,3 +91,12 @@ alias cd-projects	'cd $PROJECTS'
 alias cd-downloads	'cd $HOME/Downloads'
 alias cd-omf		'cd $OMF_CONFIG'
 alias cd-fisherman	'cd $FISHERMAN'
+
+#
+# PLUGINS
+#
+
+set fisher_home ~/.local/share/fisherman
+set fisher_config ~/.config/fisherman
+source $fisher_home/config.fish
+
