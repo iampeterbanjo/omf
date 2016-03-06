@@ -43,6 +43,7 @@ alias ehosts            'sudo editor /etc/hosts'
 alias sudo              'sudo '
 alias l                 'ls -la'
 alias eprofile		'editor ~/.profile'
+alias copypwd		'copyq add (pwd)'
 
 #
 # DEVELOPMENT
@@ -88,6 +89,7 @@ alias vbu               'vagrant box update'
 #
 
 alias tweet             'twit-cli tweet'
+alias egeany		'editor ~/.config/geany/geany.conf'
 
 #
 # DIRECTORIES
