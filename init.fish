@@ -21,6 +21,8 @@ alias omfr		'omf remove'
 alias shutdown 		'sudo shutdown'
 alias reboot 		'sudo reboot'
 
+alias top-mc						'top -o mem -O cpu'
+
 #
 # SSH
 #
