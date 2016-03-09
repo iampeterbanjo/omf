@@ -2,8 +2,7 @@
 # EDITORS
 #
 
-alias editor            gedit
-alias open              'nemo'
+alias code 		'Code'
 
 #
 # SYSTEM
@@ -36,13 +35,13 @@ alias sshaddkey		'ssh-agent -s; ssh-add'
 
 alias sudo              'sudo '
 alias aliases           'cat ~/.config/fish/config.fish'
-alias efish             'editor ~/.config/fish/config.fish'
+alias efish             'vim ~/.config/fish/config.fish'
 alias sfish             'cat ~/.config/fish/config.fish'
 alias rfish             'source ~/.config/fish/config.fish'
 alias ehosts            'sudo editor /etc/hosts'
 alias sudo              'sudo '
 alias l                 'ls -la'
-alias eprofile		'editor ~/.profile'
+alias eprofile		'vim ~/.profile'
 alias copypwd		'copyq add (pwd)'
 
 #
@@ -89,7 +88,7 @@ alias vbu               'vagrant box update'
 #
 
 alias tweet             'twit-cli tweet'
-alias egeany		'editor ~/.config/geany/geany.conf'
+alias egeany		'vim ~/.config/geany/geany.conf'
 
 #
 # DIRECTORIES
@@ -100,6 +99,8 @@ alias cd-projects	'cd $PROJECTS'
 alias cd-downloads	'cd $HOME/Downloads'
 alias cd-omf		'cd $OMF_CONFIG'
 alias cd-fisherman	'cd $FISHERMAN'
+alias cd-gopath		'cd $GOPATH'
+alias cd-gopath-src	'cd $GOPATH/src'
 
 #
 # PLUGINS
