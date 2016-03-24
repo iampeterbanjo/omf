@@ -20,7 +20,7 @@ alias omfr		'omf remove'
 alias shutdown 		'sudo shutdown'
 alias reboot 		'sudo reboot'
 
-alias top-mc						'top -o mem -O cpu'
+alias top-mc		'top -o mem -O cpu'
 
 #
 # SSH
@@ -29,16 +29,15 @@ alias top-mc						'top -o mem -O cpu'
 
 alias sshnewkey 	'ssh-keygen -t rsa -b 4096 -C' #email
 alias sshaddkey		'ssh-agent -s; ssh-add'
- 
+alias ssh-copy        'copyq add (cat ~/.ssh/id_rsa.pub)'
 
 #
 # MAINTENANCE
 #
 
 alias sudo              'sudo '
-alias aliases           'cat ~/.config/fish/config.fish'
+alias aliases           'cat $OMF_FISH/init.fish'
 alias efish             'vim ~/.config/fish/config.fish'
-alias sfish             'cat ~/.config/fish/config.fish'
 alias rfish             'source ~/.config/fish/config.fish'
 alias ehosts            'sudo editor /etc/hosts'
 alias sudo              'sudo '
@@ -51,7 +50,6 @@ alias copypwd		'copyq add (pwd)'
 #
 
 alias bsync             'browser-sync start --server . --xip --files="**/*.css, **/*.js, **/*.html" --directory'
-alias pbcopy-ssh        'pbcopy < ~/.ssh/id_rsa.pub'
 alias testem-proxy      'browser-sync start --proxy localhost:7357 --xip --no-open --port 4000'
 
 #
@@ -64,6 +62,7 @@ alias ga                'git add -A'
 alias gac               'git add -A; git commit -am'
 alias gm                'git commit --amend -m'
 alias gc                'git commit -am'
+alias gcl               'git clone'
 alias gitd              'git diff'
 alias gs                'git status'
 alias gco               'git checkout'
