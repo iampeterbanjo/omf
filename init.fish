@@ -2,8 +2,7 @@
 # EDITORS
 #
 
-alias editor            gedit
-alias open              'nemo'
+alias editor            'vim'
 
 #
 # SYSTEM
@@ -54,6 +53,7 @@ alias copypwd		'copyq add (pwd)'
 alias bsync             'browser-sync start --server . --xip --files="**/*.css, **/*.js, **/*.html" --directory'
 alias pbcopy-ssh        'pbcopy < ~/.ssh/id_rsa.pub'
 alias testem-proxy      'browser-sync start --proxy localhost:7357 --xip --no-open --port 4000'
+alias be                'bundle exec'
 
 #
 # GIT
@@ -75,6 +75,8 @@ alias gp-pages          'git push origin gh-pages'
 alias gpp-pages         'git checkout gh-pages ; git merge master ; git checkout master ;git git push --all'
 alias gra		'git remote add'
 alias gpom		'git push -u origin master'
+alias gff               'git feature finish'
+alias gf                'git feature'
 
 #
 # VAGRANT
