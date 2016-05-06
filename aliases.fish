@@ -58,15 +58,14 @@ alias g-name		        'git config --global user.name'
 alias ga                'git add -A'
 alias gac               'git add -A; git commit -am'
 
-alias gm                'git commit --amend -m'
-
 alias gc                'git commit -am'
 alias gcl               'git clone'
+alias gcm               'git commit --amend -m'
 alias gco               'git checkout'
 alias gcob              'git checkout -br'
 
 alias gd                'git diff'
-alias gs                'git status'
+alias gfo               'git fetch origin'
 
 alias gp                'git push -u --all'
 alias gpl               'git pull'
@@ -77,6 +76,8 @@ alias gp-pages          'git push origin gh-pages'
 alias gpp-pages         'git checkout gh-pages ; git merge master ; git checkout master ;git git push --all'
 
 alias gra		            'git remote add'
+
+alias gs                'git status'
 
 #
 # GIT EXTRAS
