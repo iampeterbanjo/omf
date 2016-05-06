@@ -56,22 +56,38 @@ alias testem-proxy      'browser-sync start --proxy localhost:7357 --xip --no-op
 
 alias g-email		        'git config --global user.email'
 alias g-name		        'git config --global user.name'
+
 alias ga                'git add -A'
 alias gac               'git add -A; git commit -am'
+
 alias gm                'git commit --amend -m'
+
 alias gc                'git commit -am'
 alias gcl               'git clone'
-alias gitd              'git diff'
-alias gs                'git status'
 alias gco               'git checkout'
 alias gcob              'git checkout -br'
+
+alias gd                'git diff'
+alias gs                'git status'
+
 alias gp                'git push -u --all'
 alias gpl               'git pull'
+alias gpom		          'git push -u origin master'
+
 alias gco-pages         'git checkout -b gh-pages'
 alias gp-pages          'git push origin gh-pages'
 alias gpp-pages         'git checkout gh-pages ; git merge master ; git checkout master ;git git push --all'
+
 alias gra		            'git remote add'
-alias gpom		          'git push -u origin master'
+
+#
+# GIT EXTRAS
+#
+
+alias gf                'git feature'
+alias gff               'git feature finish'
+alias gb                'git bug'
+alias gbf               'git bug finish'
 
 #
 # VAGRANT
