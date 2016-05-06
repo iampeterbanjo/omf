@@ -2,23 +2,23 @@
 # EDITORS
 #
 
-alias code 		    'Code'
+alias code 		          'Code'
 
 #
 # SYSTEM
 #
 
-alias sudo        'sudo '
-alias ai	        'sudo apt-get install'
-alias aar 	      'sudo apt-add-repository'
-alias au 	        'sudo apt-get update'
-alias arr 	      'sudo apt-remove-repository'
+alias sudo              'sudo '
+alias ai	              'sudo apt-get install'
+alias aar 	            'sudo apt-add-repository'
+alias au 	              'sudo apt-get update'
+alias arr 	            'sudo apt-remove-repository'
 
-alias omfi		    'omf install'
-alias omfr		    'omf remove'
+alias omfi		          'omf install'
+alias omfr		          'omf remove'
 
-alias shutdown 		'sudo shutdown'
-alias reboot 		  'sudo reboot'
+alias shutdown 		      'sudo shutdown'
+alias reboot 		        'sudo reboot'
 
 #
 # SSH
@@ -46,6 +46,7 @@ alias l                 'ls -la'
 
 alias bsync             'browser-sync start --server . --xip --files="**/*.css, **/*.js, **/*.html" --directory'
 alias testem-proxy      'browser-sync start --proxy localhost:7357 --xip --no-open --port 4000'
+alias be                'bundle exec'
 
 #
 # GIT
