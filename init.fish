@@ -1,8 +1,14 @@
-# 
+#
 # ALIASES
 #
 
 source $OMF_CONFIG/aliases.fish
+
+#
+# FUNCTIONS
+#
+
+source $OMF_CONFIG/functions.fish
 
 #
 # PLUGINS
@@ -12,7 +18,7 @@ set fisher_home ~/.local/share/fisherman
 set fisher_config ~/.config/fisherman
 source $fisher_home/config.fish
 
-# 
+#
 # SYSTEM SPECIFIC
 #
 
