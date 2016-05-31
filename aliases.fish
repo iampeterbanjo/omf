@@ -82,6 +82,7 @@ alias gp-pages          'git push origin gh-pages'
 alias gpp-pages         'git checkout gh-pages ; git merge master ; git checkout master ;git git push --all'
 
 alias gra		            'git remote add'
+alias grco              'git remote remove origin; git remote add origin'
 
 alias gs                'git status'
 
