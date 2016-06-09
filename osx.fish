@@ -3,6 +3,7 @@
 #
 
 aliases editor        'vim'
+aliases LighTable     'open -a LighTable'
 
 #
 # FUNCTIONS
